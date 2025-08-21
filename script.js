@@ -32,7 +32,26 @@ const vocab = [
     { chinese: "止", pinyin: "zhǐ", english: ["stop", "end"], vietnamese: ["dừng lại", "kết thúc", "chỉ"] },
     { chinese: "不止", pinyin: "bù zhǐ", english: ["not only", "more than"], vietnamese: ["không chỉ", "hơn"] },
     { chinese: "到...为止", pinyin: "dào... wéi zhǐ", english: ["until"], vietnamese: ["cho đến khi", "cho đến"] },
-
+    { chinese: "无", pinyin: "wú", english: ["nothing", "none"], vietnamese: ["không", "vô"] },
+    { chinese: "无能为力", pinyin: "wú néng wéi lì", english: ["powerless"], vietnamese: ["bất lực", "không có năng lực"] },
+    { chinese: "无话可说", pinyin: "wú huà kě shuō", english: ["have nothing to say"], vietnamese: ["không có gì để nói"] },
+    { chinese: "无法无天", pinyin: "wú fǎ wú tiān", english: ["lawless"], vietnamese: ["vô pháp vô thiên"] },
+    { chinese: "未", pinyin: "wèi", english: ["have not", "not yet"], vietnamese: ["chưa", "vị"] },
+    { chinese: "未来", pinyin: "wèi lái", english: ["the future"], vietnamese: ["tương lai"] },
+    { chinese: "从未", pinyin: "cóng wèi", english: ["have never"], vietnamese: ["chưa bao giờ"] },
+    { chinese: "支", pinyin: "zhī", english: ["to pay"], vietnamese: ["chi trả", "trả", "chi"] },
+    { chinese: "支票", pinyin: "zhī piào", english: ["cheque"], vietnamese: ["séc", "chi phiếu"] },
+    { chinese: "开支", pinyin: "kāi zhī", english: ["expenditures"], vietnamese: ["chi phí", "khoản chi"] },
+    { chinese: "支出", pinyin: "zhī chū", english: ["to pay", "expenditures"], vietnamese: ["chi ra", "chi tiêu"] },
+    { chinese: "父", pinyin: "fù", english: ["father"], vietnamese: ["cha", "bố", "phụ"] },
+    { chinese: "父亲", pinyin: "fù qīn", english: ["father"], vietnamese: ["cha", "bố", "phụ thân"] },
+    { chinese: "交", pinyin: "jiāo", english: ["to interact", "to submit", "to exchange"], vietnamese: ["giao"] },
+    { chinese: "外交", pinyin: "wài jiāo", english: ["foreign affairs"], vietnamese: ["ngoại giao"] },
+    { chinese: "交给", pinyin: "jiāo gěi", english: ["give to", "submit to"], vietnamese: ["giao cho", "giao gửi"] },
+    { chinese: "上交", pinyin: "shàng jiāo", english: ["to submit"], vietnamese: ["nộp lên", "giao nộp", "nộp"] },
+    { chinese: "摸", pinyin: "mō", english: ["to touch"], vietnamese: ["sờ", "chạm", "xoa", "mạc"] },
+    { chinese: "闻", pinyin: "wén", english: ["to smell"], vietnamese: ["ngửi"] },
+    { chinese: "卖", pinyin: "mài", english: ["to sell"], vietnamese: ["mua", "mại"] },
 ]
 
 // --- DOM ELEMENTS ---
@@ -202,3 +221,4 @@ switchModeBtn.addEventListener('click', switchMode);
 
 // --- INITIALIZE ---
 startQuiz();
+
