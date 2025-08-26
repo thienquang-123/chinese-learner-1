@@ -52,6 +52,23 @@ const vocab = [
     { chinese: "摸", pinyin: "mō", english: ["to touch"], vietnamese: ["sờ", "chạm", "xoa", "mạc"] },
     { chinese: "闻", pinyin: "wén", english: ["to smell"], vietnamese: ["ngửi"] },
     { chinese: "卖", pinyin: "mài", english: ["to sell"], vietnamese: ["mua", "mại"] },
+    { chinese: "爷", pinyin: "yé", english: ["old man", "grandfather"], vietnamese: ["ông", "gia"] },
+    { chinese: "爷爷", pinyin: "yé ye", english: ["grandfather"], vietnamese: ["ông nội", "gia gia"] },
+    { chinese: "大爷", pinyin: "dà ye", english: ["uncle"], vietnamese: ["bác"] },
+    { chinese: "共", pinyin: "gòng", english: ["public", "together"], vietnamese: ["cùng/chung", "cộng"] },
+    { chinese: "共同", pinyin: "gòng tóng", english: ["together"], vietnamese: ["cùng nhau", "chung", "cộng đồng"] },
+    { chinese: "一共", pinyin: "yī gòng", english: ["all together", "in total"], vietnamese: ["tổng cộng"] },
+    { chinese: "山", pinyin: "shān", english: ["mountain"], vietnamese: ["núi", "sơn"] },
+    { chinese: "火山", pinyin: "huǒ shān", english: ["volcano"], vietnamese: ["núi lửa"] },
+    { chinese: "山地", pinyin: "shān dì", english: ["mountain terrain"], vietnamese: ["vùng núi", "miền núi", "sơn địa"] },
+    { chinese: "山水", pinyin: "shān shuǐ", english: ["landscape"], vietnamese: ["phong cảnh", "sơn thủy"] },
+    { chinese: "世", pinyin: "shì", english: ["the world"], vietnamese: ["đời", "thế"] },
+    { chinese: "去世", pinyin: "qù shì", english: ["to pass away"], vietnamese: ["qua đời", "tạ thế"] },
+    { chinese: "问世", pinyin: "wèn shì", english: ["to come out", "to debut"], vietnamese: ["ra mắt", "ra đời"] },
+    { chinese: "世界", pinyin: "shì jiè", english: ["the world"], vietnamese: ["thế giới"] },
+    { chinese: "修", pinyin: "xiū", english: ["to fix", "to repair"], vietnamese: ["sửa", "sửa chữa", "tu"] },
+    { chinese: "准备", pinyin: "zhǔn bèi", english: ["to prepare"], vietnamese: ["chuẩn bị"] },
+
 ]
 
 // --- DOM ELEMENTS ---
@@ -221,4 +238,3 @@ switchModeBtn.addEventListener('click', switchMode);
 
 // --- INITIALIZE ---
 startQuiz();
-
