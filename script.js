@@ -192,6 +192,23 @@ const vocab = [
     { chinese: "电台", pinyin: "diàn tái", english: ["radio station"], vietnamese: ["đài phát thanh"] },
     { chinese: "电视台", pinyin: "diàn shì tái", english: ["TV station"], vietnamese: ["đài truyền hình"] },
     { chinese: "台风", pinyin: "tái fēng", english: ["typhoon"], vietnamese: ["bão"] },
+    { chinese: "各", pinyin: "gè", english: ["each", "every", "various"], vietnamese: ["mỗi", "các"] },
+    { chinese: "各自", pinyin: "gè zì", english: ["respective", "each one"], vietnamese: ["từng người", "mỗi người"] },
+    { chinese: "各式各样", pinyin: "gè shì gè yàng", english: ["all kinds of", "a variety of"], vietnamese: ["đủ loại", "muôn hình vạn trạng"] },
+    { chinese: "客", pinyin: "kè", english: ["guest", "customer"], vietnamese: ["khách"] },
+    { chinese: "旅客", pinyin: "lǚ kè", english: ["traveler", "passenger"], vietnamese: ["lữ khách", "hành khách"] },
+    { chinese: "请客", pinyin: "qǐng kè", english: ["to host", "to treat someone"], vietnamese: ["mời khách", "đãi khách", "thỉnh khách"] },
+    { chinese: "做客", pinyin: "zuò kè", english: ["to be a guest"], vietnamese: ["làm khách"] },
+    { chinese: "客气", pinyin: "kè qi", english: ["polite", "courteous"], vietnamese: ["khách sáo", "lịch sự"] },
+    { chinese: "路", pinyin: "lù", english: ["road", "path"], vietnamese: ["đường", "lộ"] },
+    { chinese: "路人", pinyin: "lù rén", english: ["passerby"], vietnamese: ["người qua đường"] },
+    { chinese: "及", pinyin: "jí", english: ["and", "to reach"], vietnamese: ["cập", "cùng", "kịp"] },
+    { chinese: "以及", pinyin: "yǐ jí", english: ["as well as"], vietnamese: ["cũng như", "và"] },
+    { chinese: "及时", pinyin: "jí shí", english: ["in time", "timely"], vietnamese: ["kịp thời", "đúng lúc"] },
+    { chinese: "极", pinyin: "jí", english: ["extremely", "pole"], vietnamese: ["cực"] },
+    { chinese: "北极", pinyin: "běi jí", english: ["North Pole"], vietnamese: ["Bắc Cực"] },
+    { chinese: "级", pinyin: "jí", english: ["level", "grade"], vietnamese: ["cấp"] },
+    { chinese: "级别", pinyin: "jí bié", english: ["level", "rank"], vietnamese: ["cấp bậc", "thứ hạng"] },
 ]
 
 // --- DOM ELEMENTS ---
