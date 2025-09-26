@@ -18,6 +18,7 @@ const vocab = [
     { chinese: "后头", pinyin: "hòu tou", english: ["behind"], vietnamese: ["phía sau", "đằng sau"] },
     { chinese: "外头", pinyin: "wài tou", english: ["outside"], vietnamese: ["bên ngoài"] },
     */
+    /*
     { chinese: "历", pinyin: "lì", english: ["experience"], vietnamese: ["lịch"] },
     { chinese: "学历", pinyin: "xué lì", english: ["educational background"], vietnamese: ["trình độ học vấn", "học vấn"] },
     { chinese: "来历", pinyin: "lái lì", english: ["background"], vietnamese: ["lai lịch"] },
@@ -112,6 +113,7 @@ const vocab = [
     { chinese: "工夫", pinyin: "gōng fu", english: ["time", "effort"], vietnamese: ["thời gian", "công sức", "công phy"] },
     { chinese: "大夫", pinyin: "dài fu", english: ["doctor"], vietnamese: ["bác sĩ", "đại phu"] },
     { chinese: "夫人", pinyin: "fū rén", english: ["lady", "wife", "Mrs."], vietnamese: ["phu nhân", "bà"] },
+    */
     { chinese: "失", pinyin: "shī", english: ["to lose"], vietnamese: ["mất", "sai", "thất"] },
     { chinese: "失去", pinyin: "shī qù", english: ["to lose"], vietnamese: ["mất đi", "đánh mất"] },
     { chinese: "失事", pinyin: "shī shì", english: ["to have an accident"], vietnamese: ["gặp nạn", "xảy ra tai nạn"] },
@@ -281,7 +283,39 @@ const vocab = [
     { chinese: "紧", pinyin: "jǐn", english: ["tight", "tense"], vietnamese: ["chặt", "căng", "khẩn"] },
     { chinese: "要紧", pinyin: "yào jǐn", english: ["important", "critical"], vietnamese: ["quan trọng", "khẩn cấp"] },
     { chinese: "紧张", pinyin: "jǐn zhāng", english: ["nervous", "tense"], vietnamese: ["căng thẳng", "hồi hộp", "khẩn trương"] },
-    { chinese: "命", pinyin: "mìng", english: ["life", "fate"], vietnamese: ["mệnh", "mạng"] }
+    { chinese: "命", pinyin: "mìng", english: ["life", "fate"], vietnamese: ["mệnh", "mạng"] },
+    { chinese: "生命", pinyin: "shēng mìng", english: ["life"], vietnamese: ["sinh mệnh", "sự sống"] },
+    { chinese: "命运", pinyin: "mìng yùn", english: ["fate", "destiny"], vietnamese: ["vận mệnh", "số phận"] },
+    { chinese: "景", pinyin: "jǐng", english: ["scenery", "view"], vietnamese: ["cảnh", "phong cảnh"] },
+    { chinese: "景色", pinyin: "jǐng sè", english: ["scenery", "view"], vietnamese: ["cảnh sắc", "phong cảnh"] },
+    { chinese: "风景", pinyin: "fēng jǐng", english: ["scenery", "landscape"], vietnamese: ["phong cảnh"] },
+    { chinese: "影", pinyin: "yǐng", english: ["shadow", "image", "film"], vietnamese: ["bóng", "ảnh"] },
+    { chinese: "电影", pinyin: "diàn yǐng", english: ["movie", "film"], vietnamese: ["phim", "điện ảnh"] },
+    { chinese: "使", pinyin: "shǐ", english: ["to use", "to cause", "ambassador"], vietnamese: ["sử dụng", "sử", "sứ"] },
+    { chinese: "好使", pinyin: "hǎo shǐ", english: ["works well", "easy to use"], vietnamese: ["dễ dùng", "hiệu quả"] },
+    { chinese: "使用", pinyin: "shǐ yòng", english: ["to use"], vietnamese: ["sử dụng"] },
+    { chinese: "大使", pinyin: "dà shǐ", english: ["ambassador"], vietnamese: ["đại sứ"] },
+    { chinese: "化", pinyin: "huà", english: ["to change", "-ize"], vietnamese: ["hóa"] },
+    { chinese: "化学", pinyin: "huà xué", english: ["chemistry"], vietnamese: ["hóa học"] },
+    { chinese: "象", pinyin: "xiàng", english: ["elephant", "image"], vietnamese: ["con voi", "tượng"] },
+    { chinese: "好像", pinyin: "hǎo xiàng", english: ["to seem like"], vietnamese: ["dường như", "hình như"] },
+    { chinese: "像样", pinyin: "xiàng yàng", english: ["decent", "presentable"], vietnamese: ["tươm tất", "ra hồn", "ra dáng"] },
+    { chinese: "句", pinyin: "jù", english: ["sentence"], vietnamese: ["câu", "cú"] },
+    { chinese: "句子", pinyin: "jù zi", english: ["sentence"], vietnamese: ["câu", "câu văn"] },
+    { chinese: "狗", pinyin: "gǒu", english: ["dog"], vietnamese: ["chó", "con chó", "cẩu"] },
+    { chinese: "猫", pinyin: "māo", english: ["cat"], vietnamese: ["mèo", "con mèo", "miêu"] },
+    { chinese: "故", pinyin: "gù", english: ["cause", "reason", "old"], vietnamese: ["cố"] },
+    { chinese: "故事", pinyin: "gù shi", english: ["story"], vietnamese: ["câu chuyện", "cố sự", "chuyện cũ"] },
+    { chinese: "故意", pinyin: "gù yì", english: ["on purpose", "intentionally"], vietnamese: ["cố ý", "cố tình"] },
+    { chinese: "事故", pinyin: "shì gù", english: ["accident"], vietnamese: ["sự cố", "tai nạn"] },
+    { chinese: "改", pinyin: "gǎi", english: ["to change", "to alter", "to correct"], vietnamese: ["cải"] },
+    { chinese: "改正", pinyin: "gǎi zhèng", english: ["to correct"], vietnamese: ["sửa chữa", "cải chính"] },
+    { chinese: "改进", pinyin: "gǎi jìn", english: ["to improve"], vietnamese: ["cải tiến", "cải thiện"] },
+    { chinese: "更改", pinyin: "gēng gǎi", english: ["to change", "to alter"], vietnamese: ["thay đổi", "sửa đổi"] },
+    { chinese: "收", pinyin: "shōu", english: ["to receive", "to collect"], vietnamese: ["nhận", "thu"] },
+    { chinese: "收件人", pinyin: "shōu jiàn rén", english: ["recipient"], vietnamese: ["người nhận"] },
+    { chinese: "收回", pinyin: "shōu huí", english: ["to take back", "to withdraw"], vietnamese: ["thu hồi", "rút lại"] },
+    { chinese: "回收", pinyin: "huí shōu", english: ["to recycle"], vietnamese: ["tái chế", "thu hồi"] }
 ]
 
 // --- DOM ELEMENTS ---
