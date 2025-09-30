@@ -358,7 +358,23 @@ const vocab = [
     { chinese: "风光", pinyin: "fēng guāng", english: ["scenery", "landscape"], vietnamese: ["phong quang", "cảnh vật"] },
     { chinese: "克", pinyin: "kè", english: ["to overcome", "gram"], vietnamese: ["khắc", "gam"] },
     { chinese: "克服", pinyin: "kè fú", english: ["to overcome"], vietnamese: ["khắc phục", "vượt qua"] },
-    { chinese: "祝", pinyin: "zhù", english: ["to wish", "to express good wishes"], vietnamese: ["chúc"] }
+    { chinese: "祝", pinyin: "zhù", english: ["to wish", "to express good wishes"], vietnamese: ["chúc"] },
+    { chinese: "层", pinyin: "céng", english: ["level", "layer"], vietnamese: ["tầng", "lớp"] },
+    { chinese: "层次", pinyin: "céng cì", english: ["level", "layer", "arrangement"], vietnamese: ["tầng lớp", "cấp bậc", "cấp độ"] },
+    { chinese: "居", pinyin: "jū", english: ["to live", "to reside"], vietnamese: ["cư", "ở"] },
+    { chinese: "居住", pinyin: "jū zhù", english: ["to live", "to reside"], vietnamese: ["cư trú", "sinh sống"] },
+    { chinese: "居室", pinyin: "jū shì", english: ["room", "apartment"], vietnamese: ["phòng ở", "phòng"] },
+    { chinese: "据", pinyin: "jù", english: ["according to", "based on"], vietnamese: ["cứ"] },
+    { chinese: "据说", pinyin: "jù shuō", english: ["it is said"], vietnamese: ["nghe nói"] },
+    { chinese: "冬", pinyin: "dōng", english: ["winter"], vietnamese: ["mùa đông", "đông"] },
+    { chinese: "冬天", pinyin: "dōng tiān", english: ["winter"], vietnamese: ["mùa đông", "đông"] },
+    { chinese: "冬季", pinyin: "dōng jì", english: ["winter season"], vietnamese: ["mùa đông", "đông"] },
+    { chinese: "图", pinyin: "tú", english: ["picture", "image", "diagram"], vietnamese: ["đồ"] },
+    { chinese: "图片", pinyin: "tú piàn", english: ["picture", "image"], vietnamese: ["hình ảnh", "bức ảnh", "đồ phiến", "tranh vẽ"] },
+    { chinese: "意图", pinyin: "yì tú", english: ["intention", "intent"], vietnamese: ["ý đồ", "ý định"] },
+    { chinese: "终", pinyin: "zhōng", english: ["end", "finally"], vietnamese: ["chung"] },
+    { chinese: "终点", pinyin: "zhōng diǎn", english: ["end point", "finish line"], vietnamese: ["điểm cuối", "đích"] },
+    { chinese: "终于", pinyin: "zhōng yú", english: ["finally", "at last"], vietnamese: ["cuối cùng", "rốt cuộc", "chung quy"] },
 
 ]
 
