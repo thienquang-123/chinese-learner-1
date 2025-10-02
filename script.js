@@ -394,6 +394,20 @@ const vocab = [
     { chinese: "阴", pinyin: "yīn", english: ["shade", "yin (in yin-yang)", "cloudy"], vietnamese: ["bóng râm", "âm"] },
     { chinese: "阴天", pinyin: "yīn tiān", english: ["cloudy day", "overcast"], vietnamese: ["trời râm", "trời âm u"] },
     { chinese: "阴阳", pinyin: "yīn yáng", english: ["yin-yang"], vietnamese: ["âm dương"] },
+    { chinese: "即", pinyin: "jí", english: ["that is", "namely"], vietnamese: ["tức"] },
+    { chinese: "即使", pinyin: "jí shǐ", english: ["even if", "even though"], vietnamese: ["cho dù", "ngay cả nếu"] },
+    { chinese: "却", pinyin: "què", english: ["however", "but"], vietnamese: ["lại", "thế mà", "khước"] },
+    { chinese: "节", pinyin: "jié", english: ["holiday", "festival", "section"], vietnamese: ["tết", "tiết"] },
+    { chinese: "节日", pinyin: "jié rì", english: ["holiday", "festival"], vietnamese: ["ngày lễ", "ngày tết"] },
+    { chinese: "季节", pinyin: "jì jié", english: ["season"], vietnamese: ["mùa"] },
+    { chinese: "市", pinyin: "shì", english: ["city", "market"], vietnamese: ["thị"] },
+    { chinese: "市场", pinyin: "shì chǎng", english: ["market"], vietnamese: ["thị trường", "chợ"] },
+    { chinese: "市长", pinyin: "shì zhǎng", english: ["mayor"], vietnamese: ["thị trưởng"] },
+    { chinese: "希", pinyin: "xī", english: ["hope"], vietnamese: ["hy", "hi"] },
+    { chinese: "希望", pinyin: "xī wàng", english: ["to hope", "to wish"], vietnamese: ["hy vọng", "hi vọng"] },
+    { chinese: "离", pinyin: "lí", english: ["to leave", "to be away from"], vietnamese: ["ly", "li"] },
+    { chinese: "离开", pinyin: "lí kāi", english: ["to leave", "to depart"], vietnamese: ["rời khỏi", "ra đi", "ly khai", "li khai"] },
+    { chinese: "离婚", pinyin: "lí hūn", english: ["to divorce"], vietnamese: ["ly hôn", "li hôn"] },
 
 ]
 
