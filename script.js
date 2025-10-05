@@ -448,7 +448,24 @@ const vocab = [
     { chinese: "舌", pinyin: "shé", english: ["tongue"], vietnamese: ["lưỡi"] },
     { chinese: "活力", pinyin: "huó lì", english: ["vitality", "energy"], vietnamese: ["sức sống", "sinh lực", "hoạt lực"] },
     { chinese: "活动", pinyin: "huó dòng", english: ["activity", "event"], vietnamese: ["hoạt động"] },
-    { chinese: "生活", pinyin: "shēng huó", english: ["life", "livelihood"], vietnamese: ["cuộc sống", "sinh hoạt"] }
+    { chinese: "生活", pinyin: "shēng huó", english: ["life", "livelihood"], vietnamese: ["cuộc sống", "sinh hoạt"] },
+    { chinese: "件", pinyin: "jiàn", english: ["piece", "item", "measure word for clothes, events, etc."], vietnamese: ["cái", "chiếc", "việc", "kiện"] },
+    { chinese: "事件", pinyin: "shì jiàn", english: ["event", "incident"], vietnamese: ["sự kiện", "sự việc"] },
+    { chinese: "文件", pinyin: "wén jiàn", english: ["document", "file"], vietnamese: ["văn kiện", "tài liệu"] },
+    { chinese: "传", pinyin: "chuán", english: ["to pass on", "to transmit"], vietnamese: ["truyền", "truyện"] },
+    { chinese: "传说", pinyin: "chuán shuō", english: ["legend", "it is said"], vietnamese: ["truyền thuyết", "tương truyền", "nghe nói"] },
+    { chinese: "传单", pinyin: "chuán dān", english: ["flyer", "leaflet"], vietnamese: ["truyền đơn"] },
+    { chinese: "转", pinyin: "zhuǎn", english: ["to turn", "to transfer", "to change"], vietnamese: ["chuyển", "xoay"] },
+    { chinese: "转变", pinyin: "zhuǎn biàn", english: ["to change", "to transform"], vietnamese: ["chuyển biến"] },
+    { chinese: "转告", pinyin: "zhuǎn gào", english: ["to pass on a message"], vietnamese: ["truyền đạt lại", "nhắn lại"] },
+    { chinese: "择", pinyin: "zé", english: ["to select", "to choose"], vietnamese: ["lựa chọn", "trạch", "chọn"] },
+    { chinese: "选择", pinyin: "xuǎn zé", english: ["to choose", "choice"], vietnamese: ["lựa chọn", "sự lựa chọn"] },
+    { chinese: "抱", pinyin: "bào", english: ["to hug", "to hold in one's arms"], vietnamese: ["ôm", "bão"] },
+    { chinese: "接", pinyin: "jiē", english: ["to receive", "to connect", "to catch"], vietnamese: ["nhận", "tiếp", "bắt"] },
+    { chinese: "接受", pinyin: "jiē shòu", english: ["to accept"], vietnamese: ["tiếp nhận", "chấp nhận", "tiếp thu"] },
+    { chinese: "直接", pinyin: "zhí jiē", english: ["direct", "directly"], vietnamese: ["trực tiếp"] },
+    { chinese: "迎接", pinyin: "yíng jiē", english: ["to welcome", "to greet"], vietnamese: ["nghênh đón", "tiếp đón", "ngênh tiếp"] },
+    
 
 ]
 
